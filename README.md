@@ -16,16 +16,18 @@ This project detects whether an input image is real or a deepfake using a traine
 
 ##  Project Structure
 
+```
 DeepFake/
-├── main.py        # Entry point of the application
-├── model.py       # Model loading and prediction logic
-├── test.jpg       # Sample input image
+├── main.py           # Entry point of the application
+├── model.py          # Model loading and prediction logic
+├── test.jpg          # Sample input image
 ├── requirements.txt  # Dependencies
-└── README.md      # Project documentation
+└── README.md         # Project documentation
+```
 
 ---
 
-##  Installation & Setup
+## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
 
@@ -55,11 +57,11 @@ pip install -r requirements.txt
 The trained model file (`.h5`) is not included due to GitHub file size limits.
 
  Download the model from:
-**[Add your Google Drive / Hugging Face link here]**
+**[https://drive.google.com/your-link](https://drive.google.com/file/d/1kGssolyzJ8iFFZu8Nu-nBT_eNKZWpKOK/view?usp=sharing)**
 
 After downloading, place it inside:
 
-```bash
+```
 DeepFake/
 ```
 
@@ -75,17 +77,17 @@ python main.py
 
 ##  Example
 
-Input: `test.jpg`
-Output: Prediction (Real / Fake)
+* Input: `test.jpg`
+* Output: Prediction (Real / Fake)
 
 ---
 
 ##  Technologies Used
 
 * Python
-* TensorFlow / Keras (if used)
+* TensorFlow / Keras
 * NumPy
-* OpenCV (if used)
+* OpenCV
 
 ---
 
@@ -97,7 +99,7 @@ Output: Prediction (Real / Fake)
 
 ---
 
-## Contributing
+##  Contributing
 
 Contributions are welcome. Feel free to fork the repo and submit a pull request.
 
